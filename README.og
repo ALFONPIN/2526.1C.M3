@@ -1,3 +1,10 @@
+# Logic.py - Funciones del Juego de Memoria
+
+## 1. build_symbol_pool
+
+Esta función crea la lista de símbolos necesaria para rellenar todo el tablero de memoria.
+
+**Función:**
 - Calcula el número total de cartas (filas × columnas) y valida límites (máx. 8 filas, 10 columnas, 60 cartas).
 - Calcula el número de parejas necesarias (total_cartas ÷ 2).
 - Genera símbolos únicos desde letras, dígitos y caracteres especiales.
